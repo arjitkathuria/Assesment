@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuiteDemo" verbose="1" parallel="false" thread-count="1">
+
+    <test name="HomeRunner">
+        <classes>
+            <class name="HomeTestCases"/>
+        </classes>
+    </test>
+
+    <test name="ContactRunner">
+        <classes>
+            <class name="ContactUsTestCases"/>
+        </classes>
+    </test>
+
+</suite>
